@@ -33,7 +33,7 @@ i18n = ["Babel>=2.7"]
 jinja2 = "jinja2.ext:babel_extract[i18n]"
 
 [build-system]
-requires = ["flit_core<4"]
+requires = ["flit_core==3.10.1"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.module]
